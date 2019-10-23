@@ -54,6 +54,7 @@ services:
     restart: always
     ports:
       - "127.0.0.1:3000:5000"
+      - "465:465"
     depends_on:
       - mongo
       - redis
